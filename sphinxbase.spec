@@ -5,7 +5,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: Applications/Multimedia
 License: BSD and LGPLv2+
-Url: http://cmusphinx.sourceforge.net/
+Url: https://cmusphinx.sourceforge.net/
 Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
 
 %description

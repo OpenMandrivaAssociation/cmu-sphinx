@@ -4,7 +4,7 @@ Release: %mkrel 1
 Summary: Real-time speech recognition
 Group: Applications/Multimedia
 License: BSD and LGPLv2+
-URL: http://www.pocketsphinx.org/
+URL: https://www.pocketsphinx.org/
 Source: http://downloads.sourceforge.net/cmusphinx/%{name}-%{version}.tar.gz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires: pkgconfig, python-setuptools, sphinxbase-devel

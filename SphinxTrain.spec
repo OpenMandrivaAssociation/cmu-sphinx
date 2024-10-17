@@ -4,7 +4,7 @@ Release: %mkrel 1
 Summary: An acoustic model trainer for CMU's Sphinx tools
 Group: Applications/Multimedia
 License: BSD and LGPLv2+
-URL: http://www.cmusphinx.org/
+URL: https://www.cmusphinx.org/
 Source: http://downloads.sourceforge.net/cmusphinx/%{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires: blas-devel, festival, lapack-devel, perl, python-devel
