@@ -7,6 +7,13 @@ License: BSD and LGPLv2+
 URL: https://www.cmusphinx.org/
 Source: http://downloads.sourceforge.net/cmusphinx/%{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+BuildRequires:	pocketsphinx.spec
+BuildRequires:	sphinxbase.spec
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: blas-devel, festival, lapack-devel, perl, python-devel
 BuildRequires: python-setuptools, python-scipy
 
